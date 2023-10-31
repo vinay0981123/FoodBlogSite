@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+}
+#services{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+/* .clients{
+    overflow: hidden;
+    
+} */
+#navbar{
+    flex-direction: column;
+}
+#services .box{
+    width: 80vw;
+    margin: 10px;}
+
+#navbar ul li{
+display: block;
+}
+
+
+#navbar ul li a
+{   
+    padding: 0px 7px !important;
+    font-size: 1rem; 
+}
+
+@media (min-width:0px) and (max-width:340px){
+    #home .h1-primary {
+        font-size: 1.7rem;
+    }
+    #home p{
+        font-size: 1rem;
+    }
+    
+    #services .box img {
+        width: 187px;
+        height: 100px;
+    }
+    .clients img{
+        height: 3rem !important;
+    
+    }
+    .clients .client-item{
+        padding: 4px 5px;
+    }
+    #contact #contact-box form{
+        width: 70% !important;
+        /* border: 2px solid red; */
+    }
+    #home{
+        height: 54vh !important;
+    }
+    #home::before{
+        height: 65% !important;
+    }
+    
+}
+.clients{
+    flex-wrap: wrap;
+
+}
+.clients .client-item{
+    padding: 4px 27px;
+}
+.clients img{
+    /* height:auto; this option is also available/ */
+    height: 4rem !important;
+    
+
+}
+#contact-box form{
+    width: 60% !important;
+    /* border: 2px solid red; */
+}
